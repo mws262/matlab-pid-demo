@@ -120,9 +120,9 @@ while (ishandle(fig)) % Dies when window is closed.
         case 2
             targetPos = 5*square(currTime);
         case 3
-            targetPos = 5*sawtooth(currTime,0.5)
+            targetPos = 5*sawtooth(currTime,0.5);
         case 4
-            targetPos = 5*sawtooth(currTime)
+            targetPos = 5*sawtooth(currTime);
         case 5
             targetPos = 5*sin(currTime);
     end
